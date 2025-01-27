@@ -131,3 +131,103 @@
         font-size: 5em;
     }
 }
+/* Overall container */
+.container {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    text-decoration: underline;
+  }
+  
+  /* Logo container */
+  .logo-container {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    border: 2px solid #25283b;
+    border-radius: 50%;
+    background-color: #ffffff;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo {
+    width: 43px;
+    height: 86px;
+    z-index: 30;
+  }
+  
+  /* Top and bottom lines */
+  .top-line,
+  .bottom-line {
+    position: absolute;
+    width: 80px;
+    height: 64px;
+    background-color: #ffffff;
+    display: flex;
+  }
+  
+  .top-line {
+    top: 180px;
+    left: 80px;
+  }
+  
+  .bottom-line {
+    bottom: 180px;
+    left: 80px;
+  }
+  
+  .top-line .left,
+  .top-line .right,
+  .bottom-line .left,
+  .bottom-line .right {
+    width: 40px;
+    height: 64px;
+    background-color: #25283b;
+  }
+  
+  .top-line .left {
+    border-top-left-radius: 50px;
+  }
+  
+  .bottom-line .left {
+    border-bottom-left-radius: 50px;
+  }
+  
+  /* Circles */
+  .circle {
+    position: absolute;
+    border: 2px solid #25283b;
+    border-radius: 50%;
+  }
+  
+  .circle-1 {
+    width: 140px;
+    height: 140px;
+  }
+  
+  .circle-2 {
+    width: 340px;
+    height: 340px;
+  }
+  
+  .circle-3 {
+    width: 540px;
+    height: 540px;
+  }
+  
+  .circle-4 {
+    width: 940px;
+    height: 940px;
+  }
+  
+  .circle-5 {
+    width: 1340px;
+    height: 1340px;
+  }
